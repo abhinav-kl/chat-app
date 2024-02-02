@@ -1,0 +1,11 @@
+{% extends "base.html" %} {% block title %} Home Page {% endblock title %} {%
+block content %}
+<center class="home-page">
+  <h1>Welcome to Chat.</h1>
+  <a
+    href="{{ url_for('login_page') }}"
+    class="btn btn-outline-dark btn-lg btn-block"
+    >Let's Started
+  </a>
+</center>
+{% endblock content %}

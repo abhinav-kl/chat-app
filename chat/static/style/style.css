@@ -1,0 +1,51 @@
+body {
+  background-color: #eeeeee;
+  /* background-color: #3f523f; */
+  /* overflow-y: hidden; */
+}
+.home-page {
+  height: 50vh;
+  padding-top: 20%;
+}
+.divider:after,
+.divider:before {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #000000;
+}
+#chat3 .form-control {
+  border-color: transparent;
+}
+
+#chat3 .form-control:focus {
+  border-color: transparent;
+  box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.badge-dot {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-left: 2.9rem;
+  margin-top: -0.75rem;
+}
+
+body {
+  background-color: #f4f7f6;
+  margin-top: 20px;
+}
+
+.username {
+  text-decoration: none;
+}
+
+.unread-messages-count {
+  color: rgb(0, 200, 0);
+  margin-left: 200px;
+  display: inline-block;
+}
+
+.current-user {
+  color: white;
+}
